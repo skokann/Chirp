@@ -5,7 +5,7 @@ function Customers() {
     <div className="w-full h-auto bg-[#D7F5F5] p-8 ">
       <h1 className="font-bold text-3xl text-left">What our customers say</h1>
       <div className="flex flex-col gap-8 my-10  ">
-        <div className="bg-white text-left rounded-">
+        <div className="bg-white text-left ">
           <div className="flex">
             <img
               className="py-3 px-3"
@@ -34,19 +34,20 @@ function Customers() {
           <div className="flex">
             <img
               className="py-3 px-3"
-              src="/userAvatar01.svg"
+              src="/userAvatar04.svg"
               alt="userAvatar01"
             />
-            <h1 className="pt-5 py-3 font-bold">Sara May</h1>
+            <h1 className="pt-5 py-3 font-bold">Thomas Eddison</h1>
             <img
-              className="ml-36"
+              className="ml-20"
               src="/Twitter (Blue).svg"
               alt="userAvatar01"
             />
           </div>
           <p className="py-3 px-3 text-lg text-gray-500">
-            I just tried out @Chirp and its amazing, love all the analytics i
-            can see.
+            I started using Chirp to support the co-founder as I personally knew
+            him, but after having tried it out for a few weeks, I can genuisely
+            say this changed my Twitter game!
           </p>
           <div className="flex py-4 px-3 ">
             <img src="/Like.svg" alt="" />
@@ -59,10 +60,10 @@ function Customers() {
           <div className="flex">
             <img
               className="py-3 px-3"
-              src="/userAvatar01.svg"
+              src="/userAvatar02.svg"
               alt="userAvatar01"
             />
-            <h1 className="pt-5 py-3 font-bold">Sara May</h1>
+            <h1 className="pt-5 py-3 font-bold">Jess May</h1>
             <img
               className="ml-36"
               src="/Twitter (Blue).svg"
@@ -70,8 +71,8 @@ function Customers() {
             />
           </div>
           <p className="py-3 px-3 text-lg text-gray-500">
-            I just tried out @Chirp and its amazing, love all the analytics i
-            can see.
+            Absolutely love everything about Chirp, from the design to how
+            everything works smoothly.
           </p>
           <div className="flex py-4 px-3 ">
             <img src="/Like.svg" alt="" />
